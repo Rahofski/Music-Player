@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    height:100%;
+    
+    flex-direction: column;
+    font-weight:500;
+    font-size: 35px;
+    line-height: 43px;
+    color: white;
+    background-color: #fff;
+}
+
+.page_header
+{
+    width: 1470px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background-image:url("4f03cb261de0cb6638e3199b86ee87ed.jpg");
+    
+}
+
+.header_list
+{
+    list-style: none;
+    font-size: 20px;
+    width: 600px;
+    padding-top: 150px;
+}
+
+.header_phone
+{
+    padding-left: 180px;
+    height: 700px;
+}
+
+.header_body
+{
+    display: flex;
+    padding-left: 150px;
+}
+
+
+
+.navigation
+{
+    padding-top: 50px;
+    display: flex;
+    gap:50px;
+    padding-left: 150px;
+}
+
+.title_nav
+{
+    text-decoration: none;
+    color:white
+}
+
+.navigation_list
+{
+    padding-left: 200px;
+    display: flex;
+    list-style: none;
+    gap:100px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.text_header
+{
+
+    font-family:Kenia, sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+
+}
+
+.text_header_down
+{
+    padding-top: 400px;
+}
+
+
+
+.page_main 
+{
+    width: 1470px;
+    height: 3072px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.page_art1
+{
+    width: 1470px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: red;
+}
+
+
+.art1_photo
+{
+    width: 1000px;
+    height: 600px;
+    
+}
+
+.art1_main
+{
+    display: flex;
+}
+
+.art1_list
+{
+    padding-top: 200px;
+}
+
+.list_button
+{
+    margin-left: 150px;
+    width: 382px;
+    height: 83px;
+    font-size: 40px;
+    color:#fff;
+    background: linear-gradient(to right, #B13E18, #F3501A);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+#kkk{
+    margin-top: 100px;
+}
+
+
+
+.page_art2
+{
+    width: 1470px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: linear-gradient(red, black 5%);
+}
+
+.art2_text
+{
+    display: block;
+    position:absolute;
+    width:900px;
+    top:330%;
+    left:19%;
+    text-align:center;
+}
+
+
+
+.page_art3
+{
+    width: 1470px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: red;
+    
+
+}
+
+
+
+.title_up
+{
+    padding-top:50px;
+    padding-left: 150px;
+}
+
+
+.art3_container
+{
+    display: flex;
+}
+.art3_button
+{
+    display: block;
+    margin:0;
+    padding: 5px;
+    width: 250px;
+    height: 55px;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 25px;
+    border-radius: 40px;
+    background-color: black;
+    color:white;
+    font-style: italic;
+    border:none;
+}
+.art3_button_1
+{
+    display: block;
+    margin:0;
+    margin-top: 40px;
+    padding: 5px;
+    width: 250px;
+    height: 55px;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 25px;
+    border-radius: 40px;
+    background-color: white;
+    color:black;
+    font-style: italic;
+    border:none;
+}
+
+
+.art3_list
+{
+    width: 600px;
+    margin:0;
+    padding:0;
+    padding-top: 90px;
+    padding-left: 150px;
+    list-style: none;
+    
+}
+
+
+
+
+.art3_main
+{
+    display:flex;
+}
+
+
+.art3_main_list
+{
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+.text_art3
+{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text_art3_1
+{
+    color:black;
+}
+
+.lap_photo
+{
+   height: 650px;
+   padding-right: 30px;
+}
+
+
+.page_footer
+{
+    width: 1470px;
+    height: 500px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: linear-gradient(red, black 5%);
+    color:white;
+}
+
+
+.footer_table
+{
+    border-spacing: 15px;
+    font-size:16px;
+    font-weight: 400;
+    margin-left: 700px;
+    font-family:Montserrat, serif;
+}
+
+.table_main
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer_logo
+{
+font-family:Kenia, sans-serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+width: 100px;
+margin-left: 150px;
+}
+
+
+.footer_list
+{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap:100px;
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+.footer_title
+{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+}
